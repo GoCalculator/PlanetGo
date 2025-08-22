@@ -44,7 +44,7 @@
     <div class="container">
         <h1>Go resources:</h1>
         <div id="account-section">
-            <h2>Create Local Account</h2>
+            <h2>Create Account</h2>
             <form id="signup-form">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required><br><br>
@@ -80,10 +80,11 @@
             }
             accounts.push({ username, password });
             message.style.color = 'green';
-            message.textContent = 'Account created locally (not saved after refresh).';
+            message.textContent = 'Account created';
             form.reset();
         });
     </script>
 </body>
 
 </html>
+
